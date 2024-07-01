@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Results</h1>
+  <p>Your word: <%= @word %></p>
+  <p>Time Taken to answer: <%= @time_taken %></p>
+  <p>Your score: <%= @score %></p>
+  <p><%= @message %></p>
+  <%= link_to "Play again", new_game_path %>
+</div>

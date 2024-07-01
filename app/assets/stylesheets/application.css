@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+/* app/assets/stylesheets/application.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.letter {
+  background-color: #007bff;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
